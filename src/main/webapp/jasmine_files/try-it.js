@@ -80,18 +80,18 @@
       });
     },
     goCoffee: function() {
-      editors.setMode('coffee');
-      editors.each(function(editor) {
-        var coffee = Js2coffee.build(editor.getSession().getValue());
-        editor.getSession().setValue(coffee);
-      });
+      var coffee = editors.get('specs');
+      var javascript = editors.get('src');
+      
+      var cs = Js2coffee.build(javascript.getSession().getValue());
+      coffee.getSession().setValue(cs);
     },
     goJavaScript: function() {
-      editors.setMode('javascript');
-      editors.each(function(editor) {
-        var js = CoffeeScript.compile(editor.getSession().getValue(), { bare: "on" });
-        editor.getSession().setValue(js);
-      });
+      var coffee = editors.get('specs');
+      var javascript = editors.get('src');
+      
+      var js = CoffeeScript.compile(coffee.getSession().getValue(), { bare: "on" });
+      javascript.getSession().setValue(js);
     }
   };
 
