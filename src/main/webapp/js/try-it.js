@@ -115,7 +115,7 @@
   };
 
   var editors = {
-    names: ['specs','src'],
+    names: ['coffee','javascript'],
     get: function(name) {
       return $('#'+name).data('editor');
     },
@@ -161,7 +161,7 @@
     tryIt();
   });
   clicker('.button.insert',function() {
-    editors.get('specs').insert($(this).data(editors.getMode()+'-snippet'));
+    editors.get('coffee').insert($(this).data(editors.getMode()+'-snippet'));
   });
   clicker('.clear-saved',function() {
     _(editors.names).each(function(name) {
@@ -258,8 +258,8 @@
 
   if(!window.runningTryJasmineSpecs) {
     $(document).ready(function(){
-      $('#specs').codeBox();
-      $('#src').codeBox();
+      $('#coffee').codeBox();
+      $('#javascript').codeBox();
       templates.init();
       arrangeEditors(localStorage['verticalSplit'] === "false" ? false : true);
     });
