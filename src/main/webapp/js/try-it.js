@@ -19,9 +19,7 @@
         body: $('.spec-runner')[0]
       }));
       self.jasmine.getEnv().addReporter(new StylishReporter());
-      editors.each(function(editor) {
-        self.execute(editor);
-      });
+      self.execute(editors.get('coffee'));
       self.jasmine.getEnv().execute();
     };
     self.execute = function(editor) {
