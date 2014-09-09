@@ -78,18 +78,16 @@
       });
     },
     goCoffee: function() {
-      editors.setMode('coffee');
-      editors.each(function(editor) {
-        var coffee = Js2coffee.build(editor.getSession().getValue());
-        editor.getSession().setValue(coffee);
-      });
+      csEditor = editors.get('coffee');
+      jsEditor = editors.get('javascript');
+      var coffee = Js2coffee.build(jsEditor.getSession().getValue());
+      csEditor.getSession().setValue(coffee);
     },
     goJavaScript: function() {
-      editors.setMode('javascript');
-      editors.each(function(editor) {
-        var js = CoffeeScript.compile(editor.getSession().getValue(), { bare: "on" });
-        editor.getSession().setValue(js);
-      });
+      csEditor = editors.get('coffee');
+      jsEditor = editors.get('javascript');
+      var js = CoffeeScript.compile(csEditor.getSession().getValue(), { bare: "on" });
+      jsEditor.getSession().setValue(js);
     }
   };
 
