@@ -24,7 +24,8 @@ class Boot {
     // Build SiteMap
     val entries = List(
       Menu.i("Home") / "index", // the simple way to declare a menu
-      Menu.i("Jasmine") / "jasmine"
+      Menu.i("Sandbox") / "sandbox",
+      Menu.i("Spec") / "spec"
     )
 
     // set the sitemap.  Note if you don't want access control for
