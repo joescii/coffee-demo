@@ -39,15 +39,10 @@
   </div>
 
   <!--Templates-->
-  <pre class="template" id="default-specs">
-  describe('panda',function(){
-  it('is happy',function(){
-    expect(panda).toBe('happy');
-  });
-});
-  </pre>
-  <pre class="template" id="default-src">
-    panda = 'sad';
+  <pre class="template" id="default-coffee">
+    describe 'some stuff', ->
+      it 'should be awesome', ->
+        expect(true).toBe true
   </pre>
 
   <script type="text/html" class="template sandbox">
