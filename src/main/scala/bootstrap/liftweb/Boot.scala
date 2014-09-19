@@ -25,7 +25,8 @@ class Boot {
     val entries = List(
       Menu.i("Home") / "index", // the simple way to declare a menu
       Menu.i("Sandbox") / "sandbox",
-      Menu.i("Spec") / "spec"
+      Menu.i("Spec") / "spec",
+      Menu.i("REPL") / "repl"
     )
 
     // set the sitemap.  Note if you don't want access control for
