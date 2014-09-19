@@ -175,7 +175,7 @@ a:focus {
 
 .step {
     position: relative;
-    width: 900px;
+    width: 1000px;
     padding: 40px;
     margin: 20px auto;
 
@@ -788,3 +788,7 @@ a:focus {
   height: 93px;
 }
 
+.repl {
+  width: 1000px;
+  height: 700px;
+}
