@@ -20,7 +20,7 @@ body {
 }
 
 .body-wrap {
-  width: 960px;
+  width: 1465px;
   margin: 0 auto;
   background-color: #fff;
   border: 1px solid #e1e1e1;
@@ -212,18 +212,22 @@ iframe {
 
 .editor.vertical {
   margin: 0px;
-  width: 460px;
+  width: 720px;
   height: 600px;
   overflow: auto;
 }
 
 .editor-wrapper.vertical {
   display: inline-block;
-  width: 460px;
+  width: 720px;
   height: 600px;
   margin: 10px 5px 10px 5px;
 }
 
 .spec-runner {
   display: none;
+}
+
+.editor.vertical.source.ace_editor.ace-tm {
+  font-size: 26px;
 }
