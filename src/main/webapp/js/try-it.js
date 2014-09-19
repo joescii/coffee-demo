@@ -67,7 +67,10 @@
     },
     renderDefault: function(name) {
       var script = this.getDefault(name);
-      editors.get(name).getSession().setValue(script);
+      if((localStorage[name] && script !== localStorage[name])) {
+        $('.clear-saved').show().css('display','inline-block');
+      }
+      editors.get(name).getSession().setValue(localStorage[name] || script);
     },
     init: function() {
       _(editors.names).each(function(name) {
