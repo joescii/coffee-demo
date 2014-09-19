@@ -256,8 +256,12 @@
     $(document).ready(function(){
       $('#coffee').codeBox();
       $('#javascript').codeBox();
+      $('#coffee').keyup(function(e){
+        templates.goJavaScript();
+      });
       templates.init();
       arrangeEditors(localStorage['verticalSplit'] === "false" ? false : true);
+      templates.goJavaScript();
     });
   }
 })(jQuery);
