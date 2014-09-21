@@ -776,7 +776,7 @@ a:focus {
 }
 
 #joe-barnes ul {
-  width: 450px;
+  width: 1000px;
   float: left;
   font-size: 30px;
 }
@@ -791,4 +791,12 @@ a:focus {
 .repl {
   width: 1480px;
   height: 700px;
+}
+
+#what {
+  width: 700px;
+}
+
+#what span {
+  padding-left: 275px;
 }
