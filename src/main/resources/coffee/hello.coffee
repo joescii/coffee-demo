@@ -1,1 +1,1 @@
-alert 'hello!'
+# say hello!
