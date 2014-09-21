@@ -800,3 +800,42 @@ a:focus {
 #what span {
   padding-left: 275px;
 }
+
+#to-js {
+  width: 800px;
+}
+
+#to-js img {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  filter: FlipH;
+}
+
+#ffi {
+  width: 1000px;
+}
+
+#ffi .coffeescript {
+  padding-top: 60px;
+  padding-right: 100px;
+}
+
+#ffi .javascript {
+  float: right;
+}
+
+#to-cs {
+  width: 800px;
+}
+
+#to-cs img {
+  -moz-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+  -ms-filter: flipv; /*IE*/
+  filter: flipv; /*IE*/
+  top: 1px; position: relative;
+}
