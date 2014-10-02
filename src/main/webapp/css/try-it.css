@@ -20,8 +20,8 @@ body {
 }
 
 .body-wrap {
-  width: 1465px;
-  margin: 0 auto;
+  width: 930px;
+  margin: 0 0;
   background-color: #fff;
   border: 1px solid #e1e1e1;
   padding: 3px;
@@ -198,7 +198,7 @@ iframe {
 
 .editor {
   margin: 0px;
-  width: 940px;
+  width: 400px;
   height: 300px;
   overflow: auto;
 }
@@ -212,16 +212,16 @@ iframe {
 
 .editor.vertical {
   margin: 0px;
-  width: 720px;
+  width: 458px;
   height: 600px;
   overflow: auto;
 }
 
 .editor-wrapper.vertical {
   display: inline-block;
-  width: 720px;
+  width: 460px;
   height: 600px;
-  margin: 10px 5px 10px 5px;
+  margin: 10px 0px 10px 0px;
 }
 
 .spec-runner {
