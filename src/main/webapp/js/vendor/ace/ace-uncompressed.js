@@ -15197,7 +15197,7 @@ define('ace/theme/textmate', ['require', 'exports', 'module' , 'pilot/dom'], fun
 }\
 \
 .ace-tm .ace_gutter {\
-  width: 50px;\
+  width: 30px;\
   background: #e8e8e8;\
   color: #333;\
   overflow : hidden;\

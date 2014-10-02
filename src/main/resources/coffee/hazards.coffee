@@ -2,4 +2,5 @@
 
 # Declaring vars
 
-# To be equal, or not to be equal?
+# To be equal...
+# or not to be equal?
