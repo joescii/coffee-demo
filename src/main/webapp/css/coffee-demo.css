@@ -227,6 +227,10 @@ a:focus {
     transition:         opacity 1s;
 }
 
+.step.hide-inactive {
+  opacity: 0;
+}
+
 .impress-enabled .step.active { opacity: 1 }
 
 /*
