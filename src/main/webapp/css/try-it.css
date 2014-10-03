@@ -198,7 +198,7 @@ iframe {
 
 .editor {
   margin: 0px;
-  width: 400px;
+  width: 920px;
   height: 300px;
   overflow: auto;
 }
@@ -228,6 +228,6 @@ iframe {
   display: none;
 }
 
-.editor.vertical.source.ace_editor.ace-tm {
+.editor.source.ace_editor.ace-tm {
   font-size: 20px;
 }
