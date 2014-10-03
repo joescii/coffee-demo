@@ -843,3 +843,14 @@ a:focus {
   filter: flipv; /*IE*/
   top: 1px; position: relative;
 }
+
+#up-arrow img {
+  transform:scale(4,3);
+  transform-origin:0 0;
+}
+
+.fp img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
