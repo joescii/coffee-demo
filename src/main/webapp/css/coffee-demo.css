@@ -854,3 +854,8 @@ a:focus {
   margin-left: auto;
   margin-right: auto;
 }
+
+#lambda img {
+  width: 300px;
+  height: 300px;
+}
