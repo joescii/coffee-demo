@@ -805,20 +805,15 @@ a:focus {
   padding-left: 310px;
 }
 
-#call-js {
-  padding-bottom: 600px;
-}
-
 #to-js {
-  width: 800px;
-}
-
-#to-js img {
+  width: 600px;
   -moz-transform: scale(-1, 1);
   -webkit-transform: scale(-1, 1);
   -o-transform: scale(-1, 1);
   transform: scale(-1, 1);
   filter: FlipH;
+  padding-right: 150px;
+  padding-bottom: 100px;
 }
 
 #ffi {
@@ -827,18 +822,15 @@ a:focus {
 
 #ffi .coffeescript {
   padding-top: 60px;
-  padding-right: 100px;
 }
 
 #ffi .javascript {
   float: right;
+  padding-right: 150px;
 }
 
 #to-cs {
-  width: 800px;
-}
-
-#to-cs img {
+  width: 600px;
   -moz-transform: scaleY(-1);
   -webkit-transform: scaleY(-1);
   -o-transform: scaleY(-1);
@@ -846,6 +838,8 @@ a:focus {
   -ms-filter: flipv; /*IE*/
   filter: flipv; /*IE*/
   top: 1px; position: relative;
+  margin-top: 480px;
+  margin-left: 120px;
 }
 
 #up-arrow img {
@@ -862,4 +856,14 @@ a:focus {
 #lambda img {
   width: 300px;
   height: 300px;
+}
+
+.future .appear {
+  opacity: 0;
+}
+
+:not(.future) .appear {
+  transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -webkit-transition: opacity 1.5s ease-in-out;
 }
