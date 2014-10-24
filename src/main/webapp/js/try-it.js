@@ -77,8 +77,8 @@
     goCoffee: function() {
       csEditor = editors.get('coffee');
       jsEditor = editors.get('javascript');
-      var coffee = Js2coffee.build(jsEditor.getSession().getValue());
-      csEditor.getSession().setValue(coffee);
+//      var coffee = Js2coffee.build(jsEditor.getSession().getValue());
+//      csEditor.getSession().setValue(coffee);
     },
     goJavaScript: function() {
       csEditor = editors.get('coffee');
