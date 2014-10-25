@@ -867,3 +867,11 @@ a:focus {
   -moz-transition: opacity 1.5s ease-in-out;
   -webkit-transition: opacity 1.5s ease-in-out;
 }
+
+#lift-logo {
+  font-size: smaller;
+}
+#lift-logo img {
+  width: 70px;
+}
+
