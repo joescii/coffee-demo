@@ -798,11 +798,11 @@ a:focus {
 }
 
 #what {
-  width: 730px;
+  width: 690px;
 }
 
 #what span {
-  padding-left: 310px;
+  padding-left: 270px;
 }
 
 #to-js {
@@ -875,3 +875,8 @@ a:focus {
   width: 70px;
 }
 
+#title .follow {
+  margin-top: 60px;
+  font-size: 45px;
+  text-align: center;
+}
