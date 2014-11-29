@@ -1,0 +1,2 @@
+(function(){(function(t){return t(function(){return t("#get-time").click(function(){var n,e;e=new Date;n="Current time is "+e;console.log(n);return t("#time").text(n)})})})(jQuery)}).call(this);
+//# sourceMappingURL=time.min.mt.js.map

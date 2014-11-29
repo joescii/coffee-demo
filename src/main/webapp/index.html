@@ -435,11 +435,15 @@
 
   <div id="toolchain" class="step" data-x="8500" data-y="2500" data-z="300" data-rotate-y="90">
     <div>Add the compiler to your toolchain</div>
-    <div>(No big deal since you minify already)</div>
   </div>
 
   <div id="debugging" class="step" data-x="8500" data-y="3000" data-z="300" data-rotate-y="90">
-    <div>But compilation <em>does</em> impact debugging...</div>
+    <div>Compilation <em>does</em> impact debugging...</div>
+  </div>
+
+  <div id="debug-example" class="step slide" data-x="8500" data-y="3000" data-z="-700" data-rotate-y="90">
+    <button id="get-time">Get Time</button>
+    <div id="time">Current time is ???</div>
   </div>
 
   <div id="recap" class="step" data-x="8500" data-y="3500" data-z="300" data-rotate-y="90">
@@ -447,7 +451,7 @@
     <ul>
       <li>Avoids common JavaScript pitfalls</li>
       <li>Less syntactic noise</li>
-      <li>Expression-based semantics</li>
+      <li>Expression-oriented semantics</li>
       <li>Cannot avoid JS runtime problems</li>
       <li>No silver bullet</li>
     </ul>
@@ -490,6 +494,7 @@
 <script data-lift="Host.ifLocal" src="js/impress-presenter.js"></script>
 <script type="application/javascript" src="js/coffee-script.js"></script>
 <script type="text/coffeescript">console.log 'coffee works'</script>
+<script type="application/javascript" src="js/time.min.mt.js"></script>
 <script>impress().init();</script>
 
 <!--
